@@ -4,6 +4,8 @@ The package did not seem to work with the newest version (1.11) of Julia because
 
 # Examples
 ## Patterning
+![Patterning Gif](C:/Users/s361359/CellBasedModelsF1/results/patterning_example.gif)
+
 ### Notes
 | Difficulties | Tricks |
 | :----------- | :----- |
