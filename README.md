@@ -41,7 +41,7 @@ The package did not seem to work with the newest version (1.11) of Julia because
 ### Notes
 | Difficulties | Tricks |
 | :----------- | :----- |
-|  |  |
+| Can't plot because the function "plotRods2D" is not defined, but shows up in the CellBasedModels documentation |  |
 
 ---
 ---
