@@ -35,7 +35,7 @@ The package did not seem to work with the newest version (1.11) of Julia because
 ### Notes
 | Difficulties | Tricks |
 | :----------- | :----- |
-|  |  |
+| Can't initialize the community because there are errors with the (not) defined platform |  |
 
 ## Bacterial chemotaxis
 ### Notes
