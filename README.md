@@ -22,9 +22,9 @@ The package did not seem to work with the newest version (1.11) of Julia because
 | @step: Fitting the model - Upload experimental data the authors want to read a csv file with data but it is not provided to the reader as far as I can tell. I can't continue implementing the example |  |
 
 ## Particle aggregation
-![Particle Aggragion1](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/particle_aggregation_repulsion_agents_example.png)
-![Particle Aggragion2](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/particle_aggregation_repulsion_boundaries_example.png)
-![Particle Aggragion3](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/particle_aggregation_diffusion_example.png)
+![Particle Aggregation1](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/particle_aggregation_repulsion_agents_example.png)
+![Particle Aggregation2](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/particle_aggregation_repulsion_boundaries_example.png)
+![Particle Aggregation3](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/particle_aggregation_diffusion_example.png)
 
 ### Notes
 | Difficulties | Tricks |
