@@ -24,7 +24,7 @@ The package did not seem to work with the newest version (1.11) of Julia because
 ## Particle aggregation
 ![Particle Aggregation1](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/particle_aggregation_repulsion_agents_example.png)
 ![Particle Aggregation2](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/particle_aggregation_repulsion_boundaries_example.png)
-![Particle Aggregation3](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/particle_aggregation_diffusion_example.png)
+![Particle Aggregation3](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/particle_aggregation_repulsion_diffusion_example.png)
 
 ### Notes
 | Difficulties | Tricks |
