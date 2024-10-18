@@ -10,6 +10,7 @@ The package did not seem to work with the newest version (1.11) of Julia because
 | Difficulties | Tricks |
 | :----------- | :----- |
 | Defining complex functions and their many parameters can be daunting at first |  |
+| It is quite hard to play around with the parameters as it is not easy to tell which parameter is what based on their names |  |
 
 ## ICM development
 ![ICM Development1](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/icm_development_example.png)
