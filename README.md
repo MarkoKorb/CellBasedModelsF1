@@ -38,10 +38,13 @@ The package did not seem to work with the newest version (1.11) of Julia because
 | Can't initialize the community because there are errors with the (not) defined platform |  |
 
 ## Bacterial chemotaxis
+![Chemotaxis1](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/bacterial_chemotaxis_example.png)
+![Chemotaxis2](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/bacterial_chemotaxis_statistics.png)
+
 ### Notes
 | Difficulties | Tricks |
 | :----------- | :----- |
-| Can't plot because the function "plotRods2D" is not defined, but shows up in the CellBasedModels documentation |  |
+| Can't plot because the function "plotRods2D" is not defined, but shows up in the CellBasedModels documentation | Fix: Copy the code from the API and use it do define "plotRods2D" in your code |
 
 ---
 ---
