@@ -33,10 +33,13 @@ The package did not seem to work with the newest version (1.11) of Julia because
 | The second last code block leads to a “nested task error: BoundsError” | Fix: Using a smaller SimBox (e.g. simBox = S.*[-5. 5; -5 5]) |
 
 ## Bacterial colony growth
+![Growth1](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/bacterial_colony_growth_two_bacterias_example.png)
+![Growth2](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/bacterial_colony_growth_growth_example.png)
+
 ### Notes
 | Difficulties | Tricks |
 | :----------- | :----- |
-| Can't initialize the community because there are errors with the (not) defined platform |  |
+| Can't initialize the community because there are errors with the (not) defined platform | Fix: I had to use CPU instead of GPU as platform |
 
 ## Bacterial chemotaxis
 ![Chemotaxis1](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/bacterial_chemotaxis_example.png)
