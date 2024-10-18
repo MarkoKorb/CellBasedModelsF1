@@ -25,11 +25,12 @@ The package did not seem to work with the newest version (1.11) of Julia because
 ![Particle Aggregation1](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/particle_aggregation_repulsion_agents_example.png)
 ![Particle Aggregation2](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/particle_aggregation_repulsion_boundaries_example.png)
 ![Particle Aggregation3](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/particle_aggregation_repulsion_diffusion_example.png)
+![Particle Aggregation4](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/particle_aggregation_repulsion_statistics.png)
 
 ### Notes
 | Difficulties | Tricks |
 | :----------- | :----- |
-| The second last code block leads to a “nested task error: BoundsError” |  |
+| The second last code block leads to a “nested task error: BoundsError” | Fix: Using a smaller SimBox (e.g. simBox = S.*[-5. 5; -5 5]) |
 
 ## Bacterial colony growth
 ### Notes
