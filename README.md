@@ -13,9 +13,9 @@ The package did not seem to work with the newest version (1.11) of Julia because
 | It is quite hard to play around with the parameters as it is not easy to tell which parameter is what based on their names |  |
 
 ## ICM development
-![ICM Development1](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/icm_development_example.png)
-![ICM Development2](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/icm_development_proportions.png)
-![ICM Development3](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/icm_development_statistics.png)
+![ICM Development1](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/examples/icm_development_example.png)
+![ICM Development2](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/examples/icm_development_proportions.png)
+![ICM Development3](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/examples/icm_development_statistics.png)
 
 ### Notes
 | Difficulties | Tricks |
@@ -23,10 +23,10 @@ The package did not seem to work with the newest version (1.11) of Julia because
 | @step: Fitting the model - Upload experimental data the authors want to read a csv file with data but it is not provided to the reader as far as I can tell. I can't continue implementing the example |  |
 
 ## Particle aggregation
-![Particle Aggregation1](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/particle_aggregation_repulsion_agents_example.png)
-![Particle Aggregation2](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/particle_aggregation_repulsion_boundaries_example.png)
-![Particle Aggregation3](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/particle_aggregation_repulsion_diffusion_example.png)
-![Particle Aggregation4](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/particle_aggregation_repulsion_statistics.png)
+![Particle Aggregation1](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/examples/particle_aggregation_repulsion_agents_example.png)
+![Particle Aggregation2](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/examples/particle_aggregation_repulsion_boundaries_example.png)
+![Particle Aggregation3](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/examples/particle_aggregation_repulsion_diffusion_example.png)
+![Particle Aggregation4](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/examples/particle_aggregation_repulsion_statistics.png)
 
 ### Notes
 | Difficulties | Tricks |
@@ -34,8 +34,8 @@ The package did not seem to work with the newest version (1.11) of Julia because
 | The second last code block leads to a “nested task error: BoundsError” | Fix: Using a smaller SimBox (e.g. simBox = S.*[-5. 5; -5 5]) |
 
 ## Bacterial colony growth
-![Growth1](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/bacterial_colony_growth_two_bacterias_example.png)
-![Growth2](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/bacterial_colony_growth_growth_example.png)
+![Growth1](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/examples/bacterial_colony_growth_two_bacterias_example.png)
+![Growth2](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/examples/bacterial_colony_growth_growth_example.png)
 
 ### Notes
 | Difficulties | Tricks |
@@ -43,8 +43,8 @@ The package did not seem to work with the newest version (1.11) of Julia because
 | Can't initialize the community because there are errors with the (not) defined platform | Fix: I had to use CPU instead of GPU as platform |
 
 ## Bacterial chemotaxis
-![Chemotaxis1](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/bacterial_chemotaxis_example.png)
-![Chemotaxis2](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/bacterial_chemotaxis_statistics.png)
+![Chemotaxis1](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/examples/bacterial_chemotaxis_example.png)
+![Chemotaxis2](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/examples/bacterial_chemotaxis_statistics.png)
 
 ### Notes
 | Difficulties | Tricks |
