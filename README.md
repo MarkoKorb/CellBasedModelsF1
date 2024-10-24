@@ -10,7 +10,7 @@ The package did not seem to work with the newest version (1.11) of Julia because
 | Difficulties | Tricks |
 | :----------- | :----- |
 | Defining complex functions and their many parameters can be daunting at first |  |
-| It is quite hard to play around with the parameters as it is not easy to tell which parameter is what based on their names |  |
+| It is quite hard to play around with the parameters as it is not easy to tell which parameter is what based on their names | Fix (kind of): Give ChatGPT the link to the example and ask it what the parameters in the code mean |
 | Even after playing around with the parameters it is hard to tell what exactly a parameter does |  |
 
 ## ICM development
@@ -22,6 +22,7 @@ The package did not seem to work with the newest version (1.11) of Julia because
 | Difficulties | Tricks |
 | :----------- | :----- |
 | @step: Fitting the model - Upload experimental data the authors want to read a csv file with data but it is not provided to the reader as far as I can tell. I can't continue implementing the example |  |
+| Here it was hard to tell what parameter does what too. However some parameters were more easy to "decipher" than others. Some parameters were explained in the example code | Fix (kind of): Give ChatGPT the link to the example and ask it what the parameters in the code mean |
 
 ## Particle aggregation
 ![Particle Aggregation1](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/examples/particle_aggregation_repulsion_agents_example.png)
