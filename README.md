@@ -34,6 +34,7 @@ The package did not seem to work with the newest version (1.11) of Julia because
 | Difficulties | Tricks |
 | :----------- | :----- |
 | The second last code block leads to a “nested task error: BoundsError” | Fix: Using a smaller SimBox (e.g. simBox = S.*[-5. 5; -5 5]) |
+| It is quite hard to play around with the parameters as it is not easy to tell which parameter is what based on their names | Fix (kind of): Give ChatGPT the link to the example and ask it what the parameters in the code mean |
 
 ## Bacterial colony growth
 ![Growth1](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/examples/bacterial_colony_growth_two_bacterias_example.png)
@@ -43,6 +44,7 @@ The package did not seem to work with the newest version (1.11) of Julia because
 | Difficulties | Tricks |
 | :----------- | :----- |
 | Can't initialize the community because there are errors with the (not) defined platform | Fix: I had to use CPU instead of GPU as platform |
+| It is quite hard to play around with the parameters as it is not easy to tell which parameter is what based on their names | Fix (kind of): Give ChatGPT the link to the example and ask it what the parameters in the code mean |
 
 ## Bacterial chemotaxis
 ![Chemotaxis1](https://github.com/MarkoKorb/CellBasedModelsF1/blob/master/results/examples/bacterial_chemotaxis_example.png)
@@ -52,6 +54,11 @@ The package did not seem to work with the newest version (1.11) of Julia because
 | Difficulties | Tricks |
 | :----------- | :----- |
 | Can't plot because the function "plotRods2D" is not defined, but shows up in the CellBasedModels documentation | Fix: Copy the code from the API and use it do define "plotRods2D" in your code |
+| It is quite hard to play around with the parameters as it is not easy to tell which parameter is what based on their names | Fix (kind of): Give ChatGPT the link to the example and ask it what the parameters in the code mean |
+| Changing the parameters does not seem to have any impact on the results? |  |
+
+## General difficulties and tricks
+If you have no idea about agent-based models and their implementation in code, it might be difficult to use the package, as many things are not self-explanatory.
 
 ---
 ---
