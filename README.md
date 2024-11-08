@@ -197,4 +197,8 @@ The package did not seem to work with the newest version (1.11) of Julia because
 - It requires prior knowledge of Julia or the math behind ABMs (or a lot of time)
 
 ## Member 4 - Caro
-
+- Either Agents.jl or CellBasedModels.jl, due to version differences
+- The package should have simpler examples
+- Could be better for simulations cells in a medium (but rather use their code as reference and implement it in Agents.jl)
+- Performance could be worse due to older Julia version and the fact that it was developed by 1-2 PhD students
+- No "live view" where you can also change parameters live like in Agents.jl
