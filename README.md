@@ -172,20 +172,33 @@ The package did not seem to work with the newest version (1.11) of Julia because
 ---
 
 ## General difficulties and tricks
-If you have no idea about agent-based models and their implementation in code, it might be difficult to use the package, as many things are not self-explanatory.
+- If you have no idea about agent-based models and their implementation in code, it might be difficult to use the package, as many things are not self-explanatory.
+- No commit for more than a year
 
 ---
 ---
 
 # Discussion with group members
-## Member 1
+## Member 1 - Gina
+- Not suitable for her "grid" approach
+- Could be hard to implement her network structure with the package
+- The package looks more complicated than the package she is using right now
 
+## Member 2 - Sascha
+- In principle, you could use the package
+- It would be too much work to transfer an existing model to the package
+- Agrees that getting started using the package is too difficult if you haven't dealt with ABM much before
+- If you can't simulate multiple agents / celltypes in one simulation or you can't simulate a vertex model there is not much added value in using the package
+- Things like *evolve!* or *@addAgent* and *@removeAgent* are convenient and can reduce the workload
 
-## Member 2
+## Member 3 - Andi
+- Agrees that getting started using the package is too difficult if you haven't dealt with ABM much before
+- It looks promising in principle as a lot of groundwork is implemented already
+- It requires prior knowledge of Julia or the math behind ABMs (or a lot of time)
 
-
-## Member 3
-
-
-## Member 4
-...
+## Member 4 - Caro
+- Either Agents.jl or CellBasedModels.jl, due to version differences
+- The package should have simpler examples
+- Could be better for simulations cells in a medium (but rather use their code as reference and implement it in Agents.jl)
+- Performance could be worse due to older Julia version and the fact that it was developed by 1-2 PhD students
+- No "live view" where you can also change parameters live like in Agents.jl
